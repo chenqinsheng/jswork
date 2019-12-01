@@ -1,7 +1,13 @@
 {
   "name": "jswork",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -14,6 +20,5 @@
   "bugs": {
     "url": "https://github.com/chenqinsheng/jswork/issues"
   },
-  "homepage": "https://github.com/chenqinsheng/jswork#readme",
-  "description": ""
+  "homepage": "https://github.com/chenqinsheng/jswork#readme"
 }
