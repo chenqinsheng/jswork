@@ -8,6 +8,7 @@
             var item = {tag:'',text:'',attr:{},option:null}
             for (var n in this.data[k]){
                 item[n] = this.data[k][n]
+                
             } 
             html += builder.toHtml(item);
         }
