@@ -1,13 +1,13 @@
-//
-$('#fold>ul>li:first').find('.warp').css({
-    display:'block'
+//默认情况下，显示第一个分类下的菜单
+$('#fold>ul>li:first').find('.wrap').css({
+    display: 'block'
 });
-//
-$('fold>ul>li').click(function () {
-    $(this).siblings('li').find('.warp').css({
-        display:'none'
+//根据用户点击，折叠或展开对应的菜单
+$('#fold>ul>li').click(function () {
+    $(this).siblings('li').find('.wrap').css({
+        display: 'none'
     });
-    $(this).find('warp').css({
-        display:'block'
+    $(this).find('.wrap').css({
+        display: 'block'
     });
 });
