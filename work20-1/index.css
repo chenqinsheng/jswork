@@ -1,10 +1,10 @@
 select {
-    width: 100px;
+    widows: 100px;
     height: 150px;
 }
 
 input[type=button] {
-    width: 50px;
+    widows: 50px;
 }
 
 #title {
