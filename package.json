@@ -1,7 +1,6 @@
 {
   "name": "jswork",
   "version": "1.0.0",
-  "description": "",
   "main": "app.js",
   "dependencies": {
     "body-parser": "^1.19.0",
@@ -22,5 +21,6 @@
   "bugs": {
     "url": "https://github.com/chenqinsheng/jswork/issues"
   },
-  "homepage": "https://github.com/chenqinsheng/jswork#readme"
+  "homepage": "https://github.com/chenqinsheng/jswork#readme",
+  "description": ""
 }
